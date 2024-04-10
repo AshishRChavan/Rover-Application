@@ -1,0 +1,83 @@
+@font-face{
+  font-family:'Roboto';
+  src:url('Roboto-Regular.ttf')
+}
+.workflowapprovllayout{
+  position:relative;
+  /* top: 362px;
+  left: 139px; */
+  width: 76vw;
+  height: 282px;
+
+}
+.workflowapprovalui{
+  /* background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 0.75; */
+  background:rgba(255,255,255,0.75);
+  border-radius:8px
+}
+.watextlayout{
+  position:absolute;
+  top: 20px;
+  left: 34px;
+  width: 163px;
+  height: 20px;
+}
+.watextui{
+  text-align: left;
+  font-family:'Roboto';
+  font-size:15px;
+  font-weight:normal;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.taskpendinglayout{
+  position:absolute;
+  top: 20px;
+  right: 34px;
+  width: 104px;
+  height: 16px;
+}
+.taskpendingui{
+  text-align: left;
+  font-family:'Roboto';
+  font-size:12px;
+  font-weight:bold;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.workflowcontainer{
+  display:flex;
+  width: 76vw;
+  height: 282px;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-top:20px
+}
+@media screen and (max-width:1243px){
+  .workflowapprovllayout{
+    height: 480px;
+  }
+  .workflowcontainer{
+    margin-top:50px;
+  }
+}
+@media screen and (max-width:710px){
+  .workflowapprovllayout{
+    height: 670px;
+  }
+  .workflowcontainer{
+    margin-top:50px;
+  }
+}
+@media screen and (max-width:532px){
+  .workflowapprovllayout{
+    height: 880px;
+  }
+  .workflowcontainer{
+    margin-top:50px;
+  }
+}

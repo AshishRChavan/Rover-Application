@@ -1,0 +1,67 @@
+*{
+  margin:0px;
+  padding:0px
+}
+body{
+  /* background-color:red; */
+  margin:0;
+  padding:0;
+  /* width:100vw;
+  height:100vh;
+  background-size:cover;
+  background-image:url("image001.png");
+  background-repeat:no-repeat;
+  background: transparent url('img/Image 3.png') 0% 0% no- 
+  repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(5px); */
+  /* width:100vw;
+  height:100vh;
+  background-size:cover;
+  background-image:url("Nature.jpg");
+  background-repeat:no-repeat;
+  background: transparent url('img/Image 3.png') 0% 0% no- 
+  repeat padding-box;
+  opacity: 1;
+  backdrop-filter: blur(5px); */
+}
+/* @media screen and (max-width:1439px){
+  body{
+    height:115vh;
+  }
+}
+@media screen and (max-width:1361px){
+  body{
+    height:130vh;
+  }
+}
+@media screen and (max-width:1336px){
+  body{
+    height:144vh;
+  }
+}
+@media screen and (max-width:1243px){
+  body{
+    height:173vh;
+  }
+}
+@media screen and (max-width:907px){
+  body{
+    height:190vh;
+  }
+}
+@media screen and (max-width:710px){
+  body{
+    height:218vh;
+  }
+}
+@media screen and (max-width:668px){
+  body{
+    height:260vh;
+  }
+}
+@media screen and (max-width:532px){
+  body{
+    height:290vh;
+  }
+} */

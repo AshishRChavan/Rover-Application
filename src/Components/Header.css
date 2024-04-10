@@ -1,0 +1,102 @@
+@font-face{
+  font-family:'Roboto';
+  src:url('Roboto-Regular.ttf')
+}
+.layout{
+  /* position:realtive; */
+  /* top: 78px;
+  left: 139px; */ 
+  width: 76vw;
+  height: 56px; 
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+.wbg{
+  background:rgba(255,255,255,0.75);
+  /* opacity: 0.75; */
+  /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+  border-radius:8px
+}
+.myprojecttextlayout{
+  position:relative;
+  left: -20px;
+  width: 72px;
+  height: 20px;
+}
+.myprojectui{
+  text-align: right;
+  font-family:'Roboto';
+  font-weight:normal;
+  font-size:15px;
+  color: #000000;
+  opacity: 1;
+}
+.dropdownlayout{
+  position:relative;
+  left: -100px; 
+  width: 31vw;
+  height: 40px;
+  padding:8px; 
+}
+.dropdownui{
+  font-family:'Roboto';
+  font-size:14px;
+  font-weight:normal;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #CCCCCC;
+  opacity: 1;
+  border-radius:8px
+}
+.searchlayout{
+  position:relative;
+  left: 41px;
+  width: 18vw;
+  height: 40px;
+  padding-left:38px
+}
+.searchui{
+  font-family:'Roboto';
+  font-size:14px;
+  font-style:italic;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #CCCCCC;
+  opacity: 1;
+  border-radius:8px
+}
+.searchlogo{
+  position:relative;
+  left: -240px;
+  width: 15px;
+  height: 15px;
+}
+.littlecontainer{
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+}
+@media screen and (max-width:900px){
+  .dropdownlayout{
+    left: 0px; 
+  }
+  .myprojecttextlayout{  
+    left: 5px;
+  }
+  .searchlayout{
+    left: 8px;
+    padding-left:20px;
+  }
+}
+@media screen and (max-width:380px){
+  .dropdownlayout{
+    left: 0px;
+    
+  }
+  .myprojecttextlayout{  
+    left: 5px;
+  }
+  .searchlayout{
+    left: -1px;
+    padding-left:8px;
+  }
+}

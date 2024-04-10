@@ -1,0 +1,98 @@
+@font-face{
+  font-family:'Roboto';
+  src:url('Roboto-Regular.ttf')
+}
+.navlayout{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 60px;
+}
+.navbg{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.navshadow{
+  box-shadow: 0px 2px 3px #00000029;
+}
+.navopacity{
+  opacity: 1;
+}
+.navlogolayout{
+  position:relative;
+  top: 0px;
+  left: 0px;
+  width: 21px;
+  height: 22px;
+  border-radius:50px
+}
+.navlogobg{
+  background: #B594EA 0% 0% no-repeat padding-box;
+}
+.navlogoopacity{
+  opacity:1opacity
+}
+.textlayout{
+  position:relative;
+  top: -5px;
+  left: 10px;
+}
+.textui{
+  text-align: left;
+  font-family:'Roboto';
+  font-weight: bold;
+  font-size:18px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.belllayout{
+  position:relative;
+  top: 21px;
+  left: -49px;
+  width: 20px;
+  height: 24px;
+}
+.bellui{
+  opacity: 1;
+}
+.dotlayout{
+  position:relative;
+  top: -5px;
+  left: -39px;
+  width: 10px;
+  height: 10px
+}
+.dotui{
+  background: #FF0000 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius:50px;
+  opacity: 1
+}
+.profilelayout{
+  position:relative;
+  top: -18px;
+  left: -14px;
+  width: 24px;
+  height: 24px;
+}
+.profileui{
+  opacity: 1;
+}
+.navbarcontainer{
+  position:relative;
+  left:12vw;
+  display:flex;
+  width:76vw;
+  height:60px;
+  align-items:center;
+  justify-content:space-between;
+}
+.container1{
+  position:relative;
+  left:0px;
+}
+.container1{
+  position:relative;
+  left:0px;
+}

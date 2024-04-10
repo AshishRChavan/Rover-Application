@@ -1,0 +1,51 @@
+@font-face{
+  font-family:'Roboto';
+  src:url('Roboto-Regular.ttf')
+}
+.footercomplayout{
+  position:relative;
+  /* top: 675px; */
+  /* left: 152px; */
+  width: 345px;
+  height: 99px;
+}
+.footercompui{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius:5px
+}
+.footertextlayout{
+  position:absolute;
+  top: 42px;
+  left: 155px;
+  width: 100px;
+  height: 16px;
+}
+.footertextui{
+  text-align: center;
+  font-family:'Roboto';
+  font-size:12px;
+  font-weight:bold;
+  /* font: normal normal medium 12px/14px Roboto; */
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.circlelayout{
+  position:absolute;
+  top: 25px;
+  left: 92px;
+  width: 52px;
+  height: 52px;
+}
+.circleui{
+  background: #EFEFEF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius:50px
+}
+.logoflayout{
+  padding-left:25%;
+  padding-top:24%;
+  width:25px;
+  height:25px
+}
